@@ -109,6 +109,6 @@ public class CTResourcePack implements ResourcePack
         if (path.startsWith("assets/"))
             path = path.substring("assets/".length());
         String[] split = path.split("/", 2);
-        return new Identifier(split[0], split[1]);
+        return Identifier.of(split[0], split[1]);
     }
 }
