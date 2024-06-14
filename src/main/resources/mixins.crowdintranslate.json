@@ -2,6 +2,7 @@
     "required": true,
     "package": "de.guntram.mcmod.crowdintranslate.mixins",
     "refmap": "crowdin-translate-refmap.json",
+    "compatibilityLevel": "JAVA_21",
     "minVersion": "0.6",
     "client": [
         "ReloadableResourceManagerImplMixin"
