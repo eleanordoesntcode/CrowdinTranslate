@@ -41,7 +41,7 @@ jar {
 	from("LICENSE") {
 		rename { "${it}_${project.base.archivesName.get()}"}
 	}
-	archiveName 'crowdin-translate.jar'
+	archiveFileName = 'crowdin-translate.jar'
 }
 
 publishing {
