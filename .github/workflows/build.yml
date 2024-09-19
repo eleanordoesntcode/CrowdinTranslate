@@ -36,5 +36,5 @@ jobs:
     - name: Publish build
       uses: actions/upload-artifact@v3
       with:
-        name: crowdin-translate.jar
-        path: CrowdinTranslate/CrowdinTranslate/crowdin-translate.jar
+        name: Package
+        path: build/libs
