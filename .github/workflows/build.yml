@@ -37,4 +37,3 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: crowdin-translate.jar
-        path: crowdin-translate.jar
